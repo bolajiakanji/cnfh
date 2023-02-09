@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/1d11b43316.js" crossorigin="anonymous"></script>
+    <style>
+        * {
+            padding: 0px;
+            margin: 0px;
+            box-sizing: border-box;
+            color: rgb(245, 245, 245);
+        }
+
+        .header-part {
+            background-color: brown;
+            width: 100vw;
+            height: 14vh;
+            display: flex;
+            position: fixed;
+            top: 0px;
+            z-index: 1;
+
+        }
+
+        .bj {
+            padding-left: 20px;
+            color: white;
+            align-self: center;
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+
+        #navbar {
+            margin: 0 auto;
+            display: flex;
+            list-style-type: none;
+            text-decoration: none;
+            align-self: center;
+            padding-left: 200px;
+            gap: 100px;
+            font-size: larger;
+            padding-right: 20px;
+
+        }
+
+        ul {
+            display: flex;
+            list-style-type: none;
+            text-decoration: none;
+            gap: 100px;
+
+
+        }
+
+        li {
+            justify-content: space-between;
+            color: white;
+            font-weight: bolder;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: large;
+            text-decoration: none;
+        }
+
+        a {
+            justify-content: space-between;
+            color: aliceblue;
+            text-decoration: none;
+        }
+
+        #welcome-section {
+            background-color: rgba(0, 0, 0, 0.874);
+            height: 100vh;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+
+        }
+
+        #welcome-section h1 {
+            font-size: 3.0em;
+            font-family: Arial, Helvetica, sans-serif;
+            width: 100%;
+            text-align: center;
+        }
+
+        #welcome-section p {
+            color: brown;
+            font-size: 1.8em;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+            width: 40%;
+            text-align: center;
+            width: 100%;
+
+        }
+        #projects {
+                background-color: rgba(9, 26, 73, 0.597);}
+                
+
+        .project-section {
+            display: flex;
+            flex-direction: column;
+            margin-top: px;
+            justify-content: flex-end;
+            width: 80%;
+            padding-top: 80px;
+            margin: 0px auto 50px;
+            font-size: 1.0em;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        .project-link {
+            display: grid;
+            grid-template-columns: 48% 48%;
+            grid-template-rows: 50vh 50vh;
+            border: 2px soi red;
+            margin: 0 auto;
+            width: 90%;
+            row-gap: 100px;
+            column-gap: 4%;
+            border: 2px solid rd;
+            border: 2px solid brown;
+
+        }
+        .item{
+            border: 1px sold back;
+        }
+        #profile-link-1{
+            background: url('./calc3.png');
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            box-shadow: 0px 60px 0px rgba(0, 0, 0, 1);
+        }
+        #profile-link-2{
+            background: url('./mapdata.png');
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            box-shadow: 0px 60px 0px rgba(0, 0, 0, 1);
+        }
+        #profile-link-3{
+            background: url('./wiki3.png');
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            box-shadow: 0px 60px 0px rgba(0, 0, 0, 0.823);
+        }
+        #profile-link-4{
+            background: url('./tictac2.png');
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            box-shadow: 0px 60px 0px  rgba(0, 0, 0, 0.823);
+        }
+        .item{
+            box-shadow: opx 60px 5px rgba(0, 0, 0, 0.19);
+        }
+        a h3{
+            color: white;
+            position: relative;
+            top: 100%;
+            text-align: center;
+            font-size: 1.2em;
+            padding-top: 15px;
+            background-color: rgba(0, 0, 0, 0.19);
+            padding-bottom: 20px;
+            
+        }
+        a span{
+            text-align: center;
+            background-color: rgba(0, 0, 0, 0.823);
+            font-size: 22px;
+            padding: 10px 15px;
+            margin: 0px auto;
+            
+            display: block;
+            width: 25%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="header-part">
+
+            <h1 class="bj">BEE-WEB</h1>
+            <nav id="navbar">
+                <ul>
+                    <li>
+                        <a href="#">About</a>
+                    </li>
+                    <li>
+                        <a href="#">Work</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
+
+
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div id="welcome-section">
+            <h1>Hey I am mimic</h1>
+            <p>a web developer</p>
+        </div>
+        <div id="projects">
+
+            <div class="project-section">
+                <h1 style="align-self: center; text-align: center; width: 90%; margin-bottom: 10px; ">These are some of my projects</h1>
+                <hr size="2px" width="95%" style="align-self: center;">
+            </div>
+            <div class="project-link">
+                <a target=" _blank" id="profile-link-1" class="item" href="#"><h3 class="project-tile">Javascript Calculator</h3>
+                    
+                </a>
+                
+
+                <a target=" _blank" id="profile-link-2" class="item" href="#"> <h3 class="project-tile">Map Data Across the Globe</h3>
+                </a>
+                
+                <a target=" _blank" id="profile-link-3" class="item item3" href="#"> <h3 class="project-tile">Wikipedia Viewer</h3>
+                </a>
+                
+                <a target=" _blank" id="profile-link-4" class="item" href="#"><h3 class="project-tile">Tic Tac Toe Game</h3> 
+
+                    
+
+
+                </a>
+            </div><br><br><br><br><br><br>
+            <a href="#" s><span>Show all &nbsp; &gt;</span></a><br><br><br><br><br>
+        </div>
+        
+
+
+        <i class="fab fa-facebook-square" style="font-size: 30px; color:white;"></i>
+
+        <i class="fab fa-github" style="font-size: 30px; color: white;"></i>
+        <i class="fab fa-twitter" style="font-size: 30px; color: white;"></i>
+        <i class="fab fa-linkedin" style="font-size: 30px; color: white;"></i>
+        <i class="fas fa-phone" style="font-size: 30px; color: white;"></i>
+        <i class="fas fa-at " style="font-size: 30px; color: white;"></i>
+
+
+
+
+    </main>
+    
+
+
+</body>
+
+</html>
